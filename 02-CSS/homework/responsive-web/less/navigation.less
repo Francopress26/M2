@@ -1,1 +1,65 @@
 // Código de Nav acá
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    height: 12vh;
+    width: 100%;
+    align-items: center;
+    h1{ 
+        
+        font-size: 50px;
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        flex-wrap: nowrap;
+        li{
+           
+            a{
+                font-size: large;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media(max-width:@Phone){
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        height: 12vh;
+        width: 100%;
+        align-items: center;
+        h1{ 
+            
+            font-size: 50px;
+            text-align: center;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            flex-wrap: nowrap;
+            
+            li{
+               display: flex;
+               flex-wrap: nowrap;
+               justify-content: space-between;
+                a{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    font-size: large;
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

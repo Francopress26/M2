@@ -1,1 +1,27 @@
 // Mixins acá
+.imagenes{
+    border-radius: 15px;
+    
+}
+.btn-hover(@color,@radius){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: @color;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    background-color: rgb(83, 191, 253);
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: @radius;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
