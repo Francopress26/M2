@@ -1,9 +1,7 @@
 import React from 'react';
 import Card from './Card'
 import cities from '../data'
-import { Cairns } from '../data';
-import { Londres } from '../data';
-import { Denver } from '../data';
+
 
 
 
