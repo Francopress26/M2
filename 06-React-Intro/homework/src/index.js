@@ -7,3 +7,4 @@ ReactDOM.render(
     <App />,
   document.getElementById('root')
 );
+//Esto introduce todos los componentes en el html
